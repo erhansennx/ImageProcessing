@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-firstImage = cv2.imread("lion.jfif")
+firstImage = cv2.imread("lion.jfif", 0)
 cv2.imshow("Image Processing", firstImage)
 cv2.waitKey()
 
