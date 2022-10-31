@@ -17,3 +17,4 @@ for i in range(0, height):
 
 cv2.imshow("Inverted Image", invertedImage)
 cv2.waitKey()
+
